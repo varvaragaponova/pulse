@@ -8,11 +8,19 @@
     color: #fff;
     background-color: $main-color;
     text-transform: uppercase;
+    @media screen and (max-width: 410px) {
+        width: 120px;
+        font-size: 10px;
+    }
     &_main {
         width: 300px;
         height: 50px;
         margin-top: 67px;
         font-size: 16px;
+        @media screen and (max-width: 380px) {
+            max-width: 200px;
+            font-size: 14px;
+        }
     }
     &_submit {
         width: 100%;

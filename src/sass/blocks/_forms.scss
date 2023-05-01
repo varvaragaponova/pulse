@@ -17,4 +17,11 @@
             margin-bottom: 20px;
         }
     }
+    @media screen and (max-width: 530px) {
+        justify-content: center;
+        margin: 36px auto 0;
+    }
+    @media screen and (max-width: 350px) {
+        max-width: 250px;
+    }
 }

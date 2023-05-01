@@ -7,6 +7,15 @@
         img {
             width: 100%;
         }
+        @media screen and (max-width: 635px) {
+            width: 200px;
+        }
+        @media screen and (max-width: 500px) {
+            width: 150px;
+        }
+        @media screen and (max-width: 350px) {
+            width: 120px;
+        }
     }
     &__official {
         font-weight: 500;
@@ -17,6 +26,9 @@
             display: block;
             font-size: 18px;
         }
+        @media screen and (max-width: 740px) {
+            display: none;
+        }
     }
     &__phone {
         display: block;
@@ -26,6 +38,12 @@
         &:hover {
             color: #fff;
             text-decoration: none;
+        }
+        @media screen and (max-width:635px) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: 410px) {
+            display: none;
         }
     }
     &__contacts {
