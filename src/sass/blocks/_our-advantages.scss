@@ -2,18 +2,11 @@
     min-height: 473px;
     padding: 71px 0 64px 0;
     background-color: #f6f6f6;
-    &__title {
-        font-size: 30px;
-        font-weight: 700;
-        color:#0d0d0d;
-        text-align: center;
-        text-transform: uppercase;
-    }
     &__wrapper {
         display: flex;
         margin-top: 60px;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
     }
     &__item {
         max-width: 277px;
