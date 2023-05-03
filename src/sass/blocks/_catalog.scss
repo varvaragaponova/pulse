@@ -58,6 +58,9 @@
         &_active {
             display: flex;
         }
+        @media screen and (max-width: 1050px) {
+            justify-content: space-around;
+        }
         @media screen and (max-width: 680px) {
             justify-content: center;
         }
