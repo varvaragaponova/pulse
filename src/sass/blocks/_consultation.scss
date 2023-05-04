@@ -14,4 +14,14 @@
             font-size: 13px;
         }
     }
+    .error {
+        border: 1px solid $main-color;
+        margin-bottom: 10px;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #fff;
+    }
 }
