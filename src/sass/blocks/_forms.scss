@@ -24,4 +24,13 @@
     @media screen and (max-width: 350px) {
         max-width: 250px;
     }
+    &_mt25 {
+        margin-top: 25px;
+        @media screen and (max-width: 500px) {
+            width: 250px;
+        }
+        @media screen and (max-width: 460px) {
+            width: 200px;
+        }
+    }
 }
